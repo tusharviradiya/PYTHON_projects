@@ -9,5 +9,23 @@ html, body{
 }
 
 .container-fluid {
-    height: 100%;
+    min-height: 100%;
+}
+
+.i-color {
+    color: chartreuse;
+}
+
+.ss-color{
+    color: lightgrey;
+}
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
 }
